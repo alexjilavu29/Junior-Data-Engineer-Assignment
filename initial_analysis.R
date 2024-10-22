@@ -1,7 +1,7 @@
 setwd("~/AstroNet Projects/Proiecte Personale/Junior Data Engineer Assignment")
 # Create data frames for all three csv files
 df_fb <- read.csv("facebook_dataset.csv")
-df_google <- read.csv("google_dataset.csv")
+df_google <- read.csv("google_dataset.csv", sep = ",", fill = TRUE, quote = "", header=FALSE)
 # For the website data frame, the separator is a semicolon
 df_website <- read.csv("website_dataset.csv", sep = ";")
 
@@ -11,10 +11,6 @@ df_website <- read.csv("website_dataset.csv", sep = ";")
 colnames(df_fb)
 colnames(df_google)
 colnames(df_website)
-
-str(df_website)
-
-df_website[10:15,]
 
 # If a row has more than 4 missing values, remove it
 df_fb <- df_fb[rowSums(is.na(df_fb)) <= 4,]
