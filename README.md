@@ -2,7 +2,7 @@
 
 This repository contains code for the **Junior Data Engineer Assignment**, aimed at processing and merging multiple datasets into a final structured dataset. The main objective of this project is to demonstrate proficiency in handling inconsistent data, performing preprocessing tasks, and assembling a unified dataset for further analysis.
 The datasets used in this project, the modified datasets and the final dataset are not included in this repository,
-but can be found by accessing the following link: [Junior Data Engineer Assessment - Google Drive](https://drive.google.com/drive/folders/1YAN1iITcC3qf7xejiNp_Itp2Jy5Tt17L?usp=drive_link).
+but can be found by accessing the following link: [Junior Data Engineer Assessment - Google Drive] -- [To be added].
 
 ## Project Overview
 
@@ -80,4 +80,4 @@ The final dataset `final_dataset.csv` contains standardized data from all three 
 Junior Data Engineer Candidate
 
 This project was developed as part of a job assessment for the Junior Data Engineer role. The datasets used in the making of 
-this project are not included in this repository, but can be found by accessing the following link: [Junior Data Engineer Assessment - Google Drive](https://drive.google.com/drive/folders/1YAN1iITcC3qf7xejiNp_Itp2Jy5Tt17L?usp=drive_link).
+this project are not included in this repository, but can be found by accessing the following link: [Junior Data Engineer Assessment - Google Drive] -- [To be added].
