@@ -1,7 +1,8 @@
 # For the CSV files google_dataset.csv and facebook_dataset.csv, the number of columns can vary.
 
 # For the Google dataset, if a row has more columns than the header, we concatenate the 14th column with the 13th column
-# until the total number of columns is equal to the number of columns in the header.
+# until the total number of columns is equal to the number of columns in the header. This way, we capture the information
+# from the text column that was split into multiple columns. This is a better option than removing the row altogether.
 
 # For the Facebook dataset, if a row has at least 9 columns, we concatenate the 8th column with the 7th column until the
 # 9th column starts with "http". This way, we ensure that the description is intact and we use the URL as a delimiter.
